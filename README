@@ -1,0 +1,7 @@
+This script retrieves company id of a requested company from LinkedIn.
+
+I did not want to register an App in LinkedIn, my desire was to scrape this data from LinkedIn website directly.
+
+Company Id can be seen by inspecting the source of company webpage, as seen here - https://stackoverflow.com/a/53963679
+
+What I am doing in the script is I am fetching the website using selenium and going over the source. I visit each /company/company_id link in the source, and when I encounter the desired company I return the id from the URL.
